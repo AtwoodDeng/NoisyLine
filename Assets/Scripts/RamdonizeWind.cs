@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Obi;
-using UnityEditor.Rendering.HighDefinition;
 using UnityEngine;
 
 public class RamdonizeWind : MonoBehaviour
