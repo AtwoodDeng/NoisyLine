@@ -42,6 +42,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 500
     min: 0
+  directionalTransmissionMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
   cascadeShadowSplitCount:
     m_OverrideState: 1
     m_Value: 1
@@ -188,6 +193,10 @@ MonoBehaviour:
   quality:
     m_OverrideState: 0
     m_Value: 3
+  threshold:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
   intensity:
     m_OverrideState: 1
     m_Value: 0.094
@@ -211,9 +220,6 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
     min: 0
-  prefilter:
-    m_OverrideState: 0
-    m_Value: 0
   anamorphic:
     m_OverrideState: 0
     m_Value: 1
@@ -237,6 +243,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   m_AdvancedMode: 0
+  quality:
+    m_OverrideState: 0
+    m_Value: 1
   enable:
     m_OverrideState: 1
     m_Value: 1
@@ -263,7 +272,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 5
     min: 0
-  sampleCount:
+  m_SampleCount:
     m_OverrideState: 0
     m_Value: 8
     min: 4
@@ -330,7 +339,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: NoisyLinePostProcessingSettings
+  m_Name: NoisyLinePostProcessingSettings_Sifi
   m_EditorClassIdentifier: 
   components:
   - {fileID: -2108970104424926243}

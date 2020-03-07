@@ -233,6 +233,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  simRate: 1
+  RenderDelay: 5
   positionIndex: 0
   needUpdate: 0
 --- !u!1 &8228106342342899073
@@ -3400,11 +3402,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5696710474908806967}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 4053f83c9a6874b4085773ce995caf2d,
+    - target: {fileID: -5178661895559278292, guid: 4053f83c9a6874b4085773ce995caf2d,
         type: 3}
-      propertyPath: m_Name
-      value: sphere_inner
-      objectReference: {fileID: 0}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: -4216859302048453862, guid: 4053f83c9a6874b4085773ce995caf2d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3480,11 +3482,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -5178661895559278292, guid: 4053f83c9a6874b4085773ce995caf2d,
+    - target: {fileID: -927199367670048503, guid: 4053f83c9a6874b4085773ce995caf2d,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+      propertyPath: m_Name
+      value: Collider_Inner
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4053f83c9a6874b4085773ce995caf2d, type: 3}
 --- !u!4 &570124735135753530 stripped
@@ -3506,11 +3508,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5696710474908806967}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 4053f83c9a6874b4085773ce995caf2d,
-        type: 3}
-      propertyPath: m_Name
-      value: sphere_inverse
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4053f83c9a6874b4085773ce995caf2d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3585,6 +3582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 4053f83c9a6874b4085773ce995caf2d,
+        type: 3}
+      propertyPath: m_Name
+      value: Collider_Outter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4053f83c9a6874b4085773ce995caf2d, type: 3}

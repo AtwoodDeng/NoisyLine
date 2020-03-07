@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4132428505223195223
+--- !u!114 &-8196199755108208935
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,22 +20,19 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NoisyLine
-  m_Shader: {fileID: -6465566751694194690, guid: 66343d50dd6f8474389447e0a6b13410,
+  m_Name: Sphere_Sifi
+  m_Shader: {fileID: -6465566751694194690, guid: 1c69fd74bd7c7344db96abfc5a4741c1,
     type: 3}
-  m_ShaderKeywords: BOOLEAN_A0C8A3D3_ON _DOUBLESIDED_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
-  - DistortionVectors
-  - MOTIONVECTORS
-  - TransparentDepthPrepass
-  - TransparentDepthPostpass
   - TransparentBackface
+  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -124,16 +121,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - BOOLEAN_A0C8A3D3: 1
-    - BOOLEAN_EB46C18B: 1
-    - Vector1_2D9DA672: 1
-    - Vector1_2E4AD8CA: -0.48
-    - Vector1_511A349E: 0.75
+    - BOOLEAN_A0C8A3D3: 0
+    - Vector1_2D9DA672: 0
+    - Vector1_2E4AD8CA: 0
     - Vector1_51F6FD86: 1
-    - Vector1_5D6CD916: 0.1
-    - Vector1_7270DB17: 0.65
-    - Vector1_7715EFAE: -0.5
-    - Vector1_B73C6F71: 0
+    - Vector1_5D6CD916: 0
+    - Vector1_7270DB17: 0.86
+    - Vector1_7715EFAE: 0.33
+    - Vector1_889994A7: 0.3
     - Vector1_C2FC2009: 0.3
     - _AORemapMax: 1
     - _AORemapMin: 0
@@ -150,8 +145,8 @@ Material:
     - _Anisotropy: 0
     - _BlendMode: 0
     - _CoatMask: 0
-    - _CullMode: 0
-    - _CullModeForward: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
@@ -164,19 +159,19 @@ Material:
     - _DisplacementMode: 0
     - _DistortionBlendMode: 0
     - _DistortionBlurBlendMode: 0
-    - _DistortionBlurDstBlend: 1
+    - _DistortionBlurDstBlend: 0
     - _DistortionBlurRemapMax: 1
     - _DistortionBlurRemapMin: 0
     - _DistortionBlurScale: 1
-    - _DistortionBlurSrcBlend: 1
+    - _DistortionBlurSrcBlend: 0
     - _DistortionDepthTest: 1
-    - _DistortionDstBlend: 1
+    - _DistortionDstBlend: 0
     - _DistortionEnable: 0
     - _DistortionScale: 1
-    - _DistortionSrcBlend: 1
+    - _DistortionSrcBlend: 0
     - _DistortionVectorBias: -1
     - _DistortionVectorScale: 2
-    - _DoubleSidedEnable: 1
+    - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
     - _EmissiveColorMode: 1
@@ -254,12 +249,10 @@ Material:
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
-    - _ZTestModeDistortion: 4
+    - _ZTestModeDistortion: 8
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_582DFDAC: {r: 0.99202275, g: 0.3537736, b: 1, a: 0}
-    - Color_8E49B46F: {r: 0.2688679, g: 1, b: 0.9598201, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
